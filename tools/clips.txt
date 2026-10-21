@@ -1,0 +1,36 @@
+# clip name then the words, both audio scripts read this
+n_1|One
+n_2|Two
+n_3|Three
+n_4|Four
+n_5|Five
+n_6|Six
+n_7|Seven
+n_8|Eight
+n_9|Nine
+n_10|Ten
+n_11|Eleven
+n_12|Twelve
+n_13|Thirteen
+n_14|Fourteen
+n_15|Fifteen
+n_16|Sixteen
+n_17|Seventeen
+n_18|Eighteen
+n_19|Nineteen
+n_20|Twenty
+knees_out|Knees out!
+go_lower|Go lower!
+chest_up|Chest up!
+nice_rep|Nice rep!
+set_complete|Set complete. Great work.
+step_back|Step back so I can see your whole body.
+hips_up|Hips up!
+hips_down|Hips down!
+squats|Squats.
+push_ups|Push-ups.
+player_one|Player one.
+player_two|Player two.
+player_one_wins|Player one wins!
+player_two_wins|Player two wins!
+countdown_go|Three. <break time="400ms"/> Two. <break time="400ms"/> One. <break time="400ms"/> Go!

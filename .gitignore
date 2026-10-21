@@ -1,0 +1,16 @@
+build/
+.gradle/
+.kotlin/
+local.properties
+*.iml
+.idea/
+.DS_Store
+*.apk
+
+# pose models, the phone build downloads these
+phone/src/main/assets/*.task
+phone/src/main/assets/*.part
+
+# lambda zip
+backend/function.zip
+__pycache__/
