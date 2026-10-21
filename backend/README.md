@@ -28,7 +28,7 @@ Pick a region where Bedrock and your model are available (e.g. `us-east-1`). Mak
 export KEY=$(openssl rand -hex 24) && echo $KEY
 ```
 
-1. Role for the function (logs + Bedrock invoke):
+1. Role for the function (logs + Bedrock invoke). `iam-policy.json` only allows Amazon Nova Lite through the US inference profile in us-east-1. If you change `MODEL_ID` or the region, update the ARNs in that file to match.
 
 ```bash
 aws iam create-role --role-name repcoach-lambda --assume-role-policy-document file://backend/trust-policy.json

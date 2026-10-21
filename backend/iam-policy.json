@@ -2,12 +2,14 @@
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "InvokeBedrockModels",
+      "Sid": "InvokeNovaLiteOnly",
       "Effect": "Allow",
       "Action": ["bedrock:InvokeModel"],
       "Resource": [
-        "arn:aws:bedrock:*::foundation-model/*",
-        "arn:aws:bedrock:*:*:inference-profile/*"
+        "arn:aws:bedrock:us-east-1:*:inference-profile/us.amazon.nova-lite-v1:0",
+        "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-lite-v1:0",
+        "arn:aws:bedrock:us-east-2::foundation-model/amazon.nova-lite-v1:0",
+        "arn:aws:bedrock:us-west-2::foundation-model/amazon.nova-lite-v1:0"
       ]
     }
   ]
